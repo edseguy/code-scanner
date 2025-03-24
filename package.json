@@ -1,0 +1,41 @@
+{
+  "license": "0BSD",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.36",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "expo-linear-gradient": "latest",
+    "lucide-react-native": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-gesture-handler": "latest",
+    "@react-native-community/slider": "latest",
+    "expo-camera": "~16.0.17",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "@react-navigation/bottom-tabs": "latest",
+    "react-native-svg": "latest",
+    "@react-native-async-storage/async-storage": "latest",
+    "@supabase/supabase-js": "latest",
+    "sonner-native": "latest",
+    "react-native-screens": "latest",
+    "react-native-reanimated": "latest",
+    "expo-barcode-scanner": "latest",
+    "expo-clipboard": "latest",
+    "twrnc": "latest",
+    "expo-linking": "~7.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
